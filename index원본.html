@@ -1,0 +1,729 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta http-equiv="content-Type" content="text/html;charset=utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+    <title>EASYFRAME</title>
+    <link rel="stylesheet" type="text/css" href="./css/injeinc/font.css" />
+    <link rel="stylesheet" type="text/css" href="./css/injeinc/base.css" />
+    <link rel="stylesheet" type="text/css" href="./css/base.css">
+	<script src="./js/injeinc/jquery.min.js"></script>
+	<script src="./js/injeinc/jquery.plugin.js"></script>
+	<script src="./js/injeinc/common.js"></script>
+	<script src="./js/common.js"></script>
+	<script type="text/javascript" src="/include/check.js"></script>
+	<script type="text/javascript">
+	<!--
+		function checkIt(){
+			
+			if(!check_promis(document.myform.agree, '개인정보 보호를 위한 이용자 동의')) return;
+
+			if(!check_input(document.myform.Name, '이름')) return;
+			if(!check_input(document.myform.Tel, '연락처')) return;
+			if(!check_input(document.myform.Email, '이메일')) return;
+			if(!check_input(document.myform.auto_num, '자동등록방지숫자')) return false;
+
+			document.myform.submit();
+		}
+	//-->
+	</script>
+</head>
+<body>
+<div id="wrap">
+	<div id="header">
+		<div class="inner">
+			<h1><a href="#">EASYFRAME</a></h1>
+			<div class="topNav">
+				<a href="#modal_request" class="btn_modalOpen btn_topBuy">구매 문의</a>
+				<a href="#" onclick="javascript:alert('준비중입니다.');" class="btn_topDemo">데모 체험</a>
+				<a href="#" class="btn_gnbOpen">메뉴열기</a>
+			</div>
+			<div id="gnb">
+				<a href="#" class="btn_gnbClose">메뉴닫기</a>
+				<ul>
+					<li><a href="#section1">소개</a></li>
+					<li><a href="#section2">특장점</a></li>
+					<li><a href="#section3">주요 기능</a></li>
+					<li><a href="#section4">서비스 구조</a></li>
+					<li><a href="#section5">적용사례</a></li>
+					<li><a href="#section6">도입효과</a></li>
+					<li><a href="#section7">Contact US</a></li>
+					<li class="onlyPhone"><a href="#modal_request" class="btn_modalOpen">구매 문의</a></li>
+					<li class="onlyPhone"><a href="#" onclick="javascript:alert('준비중입니다.');">데모 체험</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<div id="container">
+		<div id="section1" class="section">
+			<div class="inner">
+				<div class="visualText">
+					<h6>구축부터 운영까지,<b>ALL IN ONE 콘텐츠통합관리솔루션</b></h6>
+					<img src="./images/img_section1_1.png" alt="GS인증서, 전자정부프레임워크 호환성 인증서"><br />
+					<b>전자정부 표준프레임워크 기반 CMS</b>
+					(주)인재INC의 EasyFrame은 콘텐츠 관리 및 운영환경 관리를 일원화하여<br />
+					다수의 서비스를 효율적으로 구축 및 관리할 수 있는 솔루션 입니다.<br />
+					최고의 안정성과 확장성, 체계적인 기술지원을 보장합니다.
+				</div>
+				<div class="visualMovie">
+					<div class="item1"></div>
+					<div class="item2"></div>
+					<div class="item3"></div>
+					<div class="item4"></div>
+					<div class="item5"></div>
+					<div class="item6"></div>
+				</div>
+			</div>
+		</div>
+		<div id="section2" class="section">
+			<div class="inner">
+				<div class="sectionTitle">
+					<h4>특장점</h4>
+					<h5>표준에 기반한 시스템 안정성 보장</h5>
+				</div>
+				<div class="contentWrap">
+					<div class="featureWrap">
+						<ul>
+							<li class="item1"><div>
+								<b>효율성·안정성</b>
+								<ul>
+									<li>최적의 공통모듈 사용으로 효율적·안정적 통합관리</li>
+									<li>간단한 DB 연동 및 환경 설정 작업으로 사이트 구축·개편 가능</li>
+									<li>개발기간 단축으로 인한 시스템 조기 안정화 가능</li>
+								</ul>
+							</div></li>
+							<li class="item2"><div>
+								<b>확장성</b>
+								<ul>
+									<li>오픈소스 기반의 시스템으로 유지보수 및 확장성 우수</li>
+									<li>설계, 개발 등 시스템 전반에 걸친 표준을 제시하여 상호 운용성 향상</li>
+									<li>커스터마이징 기술지원</li>
+									<li>공통모듈 외 사이트에서 자주 사용하는 기능들에 대한 모듈 지원</li>
+								</ul>
+							</div></li>
+							<li class="item3"><div>
+								<b>호환성</b>
+								<ul>
+									<li>전자정부 웹 호환성 지침 준수</li>
+									<li>한국형 웹 콘텐츠 접근성 지침 2.1 준수</li>
+									<li>Internet Explorer, Chrome, Safari, Firefox 등 멀티브라우저 지원</li>
+									<li>특정 OS, application에 종속되지 않는 유연성</li>
+								</ul>
+							</li>
+							<li class="item4"><div>
+								<b>보안성</b>
+								<ul>
+									<li>국정원, 행정안전부, OWASP, 한국인터넷 진흥원의 보안 취약점 지침 및 보안가이드 준수</li>
+									<li>개인정보에 대한 다양한 암호화 (ARIA, SEED, SHA256) 지원</li>
+									<li>개인정보 관련 로그 기록 및 보관</li>
+									<li>개인정보 필터링을 위한 정규표현식 적용</li>
+								</ul>
+							</div></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="section3" class="section">
+			<div class="inner">
+				<div class="sectionTitle">
+					<h4>주요기능</h4>
+					<h5>즉시 업무수행이 가능한 탄탄한 기본기능</h5>
+				</div>
+				<div class="contentWrap">
+					<div class="mainFunctionWrap">
+						<div class="tabContent">
+							<ul class="tabBar">
+								<li class="active"><a href="#">사용자 관리</a></li>
+								<li class=""><a href="#">게시판 관리</a></li>
+								<li class=""><a href="#">사이트 운영 관리</a></li>
+							</ul>
+							<div class="tabPage active mainFunction1">
+								<h6 class="soundOnly">사용자 관리 탭페이지</h6>
+								<ul>
+									<li class="leftWrap">
+										<h5>사용자 관리</h5>
+										<img src="./images/mainFunction1_left.png" alt="">
+									</li>
+									<li class="rightWrap">
+										<img src="./images/mainFunction1_right.png" alt="">
+										<a href="#modal_functionList" class="btn_modalOpen">주요 기능 목록</a>
+									</li>
+								</ul>
+								<div class="addList">
+									<ul>
+										<li class="list1">
+											<b>콘텐츠 관리자 정보 등록</b>
+											관리자모드에 로그인하여 콘텐츠를 관리할 관리자 정보 등록
+										</li>
+										<li class="list2">
+											<b>권한 등록</b>
+											관리자에게 관리 권한을 부여하고자 하는 사이트, 관리자메뉴, 사용자메뉴 설정
+										</li>
+									</ul>
+								</div>
+							</div>
+							<div class="tabPage mainFunction2">
+								<h6 class="soundOnly">게시판 관리 탭페이지</h6>
+								<ul>
+									<li class="leftWrap">
+										<h5>게시판 관리</h5>
+										<img src="./images/mainFunction2_left.png" alt="">
+									</li>
+									<li class="rightWrap">
+										<img src="./images/mainFunction2_right.png" alt="">
+									</li>
+								</ul>
+								<div class="addList">
+									<ul>
+										<li class="list1">
+											<b>게시판 템플릿 관리</b>
+											다양한 유형(공지형, 갤러리형, Q&A형 등)의 게시판 템플릿을 미리 등록해 놓고 사용
+										</li>
+										<li class="list2">
+											<b>통합게시물 관리</b>
+											통합 운영되는 게시판의 게시물 관리 기능 
+										</li>
+									</ul>
+								</div>
+							</div>
+							<div class="tabPage mainFunction3">
+								<h6 class="soundOnly">사이트 운영 관리 탭페이지</h6>
+								<ul>
+									<li class="leftWrap">
+										<h5>사이트 운영 관리</h5>
+										<img src="./images/mainFunction3_left.png" alt="">
+									</li>
+									<li class="rightWrap">
+										<img src="./images/mainFunction3_right.png" alt="">
+									</li>
+								</ul>
+								<div class="addList">
+									<ul>
+										<li class="list1">
+											<b>팝업/배너 관리</b>
+											사용자 페이지의 팝업/배너 이미지 등을 관리자가 직접 등록, 수정, 삭제할 수 있는 기능 
+										</li>
+										<li class="list2">
+											<b>설문조사 관리</b>
+											설문내용, 기간, 질문/답변 문항(단일응답, 복수응답, 주관식) 등을 관리자가 직접 설정하여 설문조사를 실시할 수 있는 기능
+										</li>
+										<li class="list3">
+											<b>통계 관리</b>
+											- 일별, 월별로 각 메뉴별 방문자수, 페이지뷰 제공<br>
+											- 기간별 접속현황 통계 제공<br>
+											- 자료 이용현황 정보 제공(조회수, 다운로드 수 등)<br>
+											- 콘텐츠 만족도조사 통계 제공
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div id="modal_functionList" class="modalWrap">
+					<div class="modalTitle">
+						<h2>주요 기능 목록</h2>
+						<a href="#" class="btn_modalClose">창닫기</a>
+					</div>
+					<div class="modalContent">
+						
+						<div class="tableBox">
+							<table class="list">
+								<caption>주요 기능 목록표</caption>
+								<thead>
+									<tr>
+										<th scope="col">대분류</th>
+										<th scope="col">중분류</th>
+										<th scope="col">소분류</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td rowspan="9">시스템관리</td>
+										<td rowspan="2">부서및직원관리</td>
+										<td>부서관리</td>
+									</tr>
+									<tr>
+										<td>직원정보관리</td>
+									</tr>
+									<tr>
+										<td rowspan="4">운영자관리</td>
+										<td>운영자관리</td>
+									</tr>
+									<tr>
+										<td>관리메뉴설정</td>
+									</tr>
+									<tr>
+										<td>권한설정</td>
+									</tr>
+									<tr>
+										<td>접근허용설정</td>
+									</tr>
+									<tr>
+										<td>관리자정보변경</td>
+										<td></td>
+									</tr>
+									<tr>
+										<td>공통코드</td>
+										<td></td>
+									</tr>
+									<tr>
+										<td>프로그램관리</td>
+										<td></td>
+									</tr>
+									<tr>
+										<td rowspan="3">컨텐츠관리</td>
+										<td>사이트관리</td>
+										<td></td>
+									</tr>
+									<tr>
+										<td>컨텐츠관리</td>
+										<td></td>
+									</tr>
+									<tr>
+										<td>템플릿관리</td>
+										<td></td>
+									</tr>
+									<tr>
+										<td rowspan="3">게시관관리</td>
+										<td>게시관관리</td>
+										<td></td>
+									</tr>
+									<tr>
+										<td>게시판 템플릿관리</td>
+										<td></td>
+									</tr>
+									<tr>
+										<td>게시물관리</td>
+										<td></td>
+									</tr>
+									<tr>
+										<td rowspan="6">운영관리</td>
+										<td rowspan="2">팝업/배너 관리</td>
+										<td>팝업관리</td>
+									</tr>
+									<tr>
+										<td>배너관리</td>
+									</tr>
+									<tr>
+										<td>파일업로드관리</td>
+										<td></td>
+									</tr>
+									<tr>
+										<td rowspan="2">통계관리</td>
+										<td>사이트별 접속통계</td>
+									</tr>
+									<tr>
+										<td>메뉴별 접속통계</td>
+									</tr>
+									<tr>
+										<td>설문관리</td>
+										<td></td>
+									</tr>
+									<tr>
+										<td rowspan="4">회원관리</td>
+										<td>회원그룹관리</td>
+										<td></td>
+									</tr>
+									<tr>
+										<td>회원목록</td>
+										<td></td>
+									</tr>
+									<tr>
+										<td>회원가입통계</td>
+										<td></td>
+									</tr>
+									<tr>
+										<td>로그인기록</td>
+										<td></td>
+									</tr>
+								</thead>
+							</table>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="section4" class="section">
+			<div class="inner">
+				<div class="sectionTitle">
+					<h4>서비스 구조</h4>
+				</div>
+				<div class="contentWrap">
+					<div class="serviceWrap"><a href="#" class="btn_mobileZoom" title="이미지확대(새창열기)"><img src="./images/section4_img.png" alt=""></a></div>
+				</div>
+			</div>
+		</div>
+		<div id="section5" class="section">
+			<div class="inner">
+				<div class="sectionTitle">
+					<h4>적용 사례</h4>
+					<h5>다양한 민간, 공공기관 고객님들께서 EasyFrame을 선택해주셨습니다.</h5>
+				</div>
+				<div class="contentWrap">
+					<div class="btnArea right">
+						<a href="#modal_buildList" class="btn_modalOpen">최근 구축 실적 +</a>
+						<a href="./data/EasyFrame_Introduction_V1.2.pdf" target="_blank" title="소개서다운로드(새창)">소개서 다운로드 +</a>
+					</div>
+					<div class="partnerList">
+						<ul>
+							<li class="item1"><img src="./images/img_section5_1.jpg" alt="행정안전부"></li>
+							<li class="item2"><img src="./images/img_section5_2.jpg" alt="보건복지부"></li>
+							<li class="item3"><img src="./images/img_section5_3.jpg" alt="통일부"></li>
+							<li class="item4"><img src="./images/img_section5_4.jpg" alt="외교부"></li>
+							<li class="item5"><img src="./images/img_section5_5.jpg" alt="국토교통부"></li>
+							<li class="item6"><img src="./images/img_section5_6.jpg" alt="문화체육관광부"></li>
+							<li class="item7"><img src="./images/img_section5_7.jpg" alt="기획재정부"></li>
+							<li class="item8"><img src="./images/img_section5_8.jpg" alt="한국도로공사"></li>
+							<li class="item9"><img src="./images/img_section5_9.jpg" alt="예금보험공사"></li>
+							<li class="item10"><img src="./images/img_section5_10.jpg" alt="한국국토정보공사"></li>
+							<li class="item11"><img src="./images/img_section5_11.jpg" alt="서초구청"></li>
+							<li class="item12"><img src="./images/img_section5_12.jpg" alt="관악구청"></li>
+							<li class="item13"><img src="./images/img_section5_13.jpg" alt="안양시청"></li>
+							<li class="item14"><img src="./images/img_section5_14.jpg" alt="인천경제자유구역"></li>
+							<li class="item15"><img src="./images/img_section5_15.jpg" alt="안양시의회"></li>
+							<li class="item16"><img src="./images/img_section5_16.jpg" alt="한국마사회"></li>
+							<li class="item17"><img src="./images/img_section5_17.jpg" alt="한국과학기술연구원"></li>
+							<li class="item18"><img src="./images/img_section5_18.jpg" alt="한국지방세연구원"></li>
+							<li class="item19"><img src="./images/img_section5_19.jpg" alt="한국사회복지협의회"></li>
+							<li class="item20"><img src="./images/img_section5_20.jpg" alt="국립인천대학교"></li>
+							<li class="item21"><img src="./images/img_section5_21.jpg" alt="연세대학교 의료원"></li>
+							<li class="item22"><img src="./images/img_section5_22.jpg" alt="한국토지주택공사"></li>
+							<li class="item23"><img src="./images/img_section5_23.jpg" alt="농림수산식품교육문화정보원"></li>
+							<li class="item24"><img src="./images/img_section5_24.jpg" alt="한국보건산업진흥원"></li>
+							<li class="item25"><img src="./images/img_section5_25.jpg" alt="한국인터넷진흥원"></li>
+							<li class="item26"><img src="./images/img_section5_26.jpg" alt="NIA한국정보화진흥원"></li>
+							<li class="item27"><img src="./images/img_section5_27.jpg" alt="한국석유관리원"></li>
+							<li class="item28"><img src="./images/img_section5_28.jpg" alt="한국행정연구원"></li>
+							<li class="item29"><img src="./images/img_section5_29.jpg" alt="서울문화재단"></li>
+							<li class="item30"><img src="./images/img_section5_30.jpg" alt="공간정보연구원 한국국토정보공사"></li>
+							<li class="item31"><img src="./images/img_section5_31.jpg" alt="경기도교육청"></li>
+							<li class="item32"><img src="./images/img_section5_32.jpg" alt="방위사업청"></li>
+							<li class="item33"><img src="./images/img_section5_33.jpg" alt="인천광역시"></li>
+							<li class="item34"><img src="./images/img_section5_34.jpg" alt="질방관리본부"></li>
+							<li class="item35"><img src="./images/img_section5_35.jpg" alt="수도권교통본부"></li>
+							<li class="item36"><img src="./images/img_section5_36.jpg" alt="대검찰청"></li>
+							<li class="none"></li>
+							<li class="none"></li>
+							<li class="none"></li>
+							<li class="none"></li>
+						</ul>
+					</div>
+				</div>
+	
+				<div id="modal_buildList" class="modalWrap">
+					<div class="modalTitle">
+						<h2>최근 구축 실적</h2>
+						<a href="#" class="btn_modalClose">창닫기</a>
+					</div>
+					<div class="modalContent">
+						<div class="tableBox">
+							<table class="list">
+								<caption>최근 구축 실적표</caption>
+								<colgroup>
+									<col class="w20p">
+									<col>
+									<col class="w20p">
+									<!-- <col class="w15p"> -->
+								</colgroup>
+								<thead>
+									<tr>
+										<th scope="col">기업명/기관명</th>
+										<th scope="col">사업명</th>
+										<th scope="col">사업기간</th>
+										<!-- <th scope="col">사업금액</th> -->
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td>대검찰청</td>
+										<td>검찰 홈페이지 및 전자우편 재구축 사업</td>
+										<td>2018.08. ~ 2018.12.</td>
+										<!-- <td>656,861</td> -->
+									</tr>
+									<tr>
+										<td>한국환경산업기술원</td>
+										<td>기관 대표홈페이지 개편 및 유지관리</td>
+										<td>2018.05. ~ 2018.11.</td>
+										<!-- <td>180,000</td> -->
+									</tr>
+									<tr>
+										<td>국립과학수사연구원</td>
+										<td>국립과학사수연구원 홈페이지 고도화</td>
+										<td>2017.05. ~ 2017.10.</td>
+										<!-- <td>179,997</td> -->
+									</tr>
+									<tr>
+										<td>서초구보건소</td>
+										<td>건강부모교육e-음 포털 구축</td>
+										<td>2017.04. ~ 2017.08.</td>
+										<!-- <td>172,000</td> -->
+									</tr>
+									<tr>
+										<td>한국소프트웨어산업협회</td>
+										<td>회원정보관리시스템 및 홈페이지 개편 사업</td>
+										<td>2017.04. ~ 2017.08.</td>
+										<!-- <td>63,700</td> -->
+									</tr>
+									<tr>
+										<td>중소기업청</td>
+										<td>중소기업청 통합 홈페이지 구축</td>
+										<td>2016.07. ~ 2016.12.</td>
+										<!-- <td>446,610</td> -->
+									</tr>
+									<tr>
+										<td>한국언론진흥재단</td>
+										<td>뉴스트러스트 웹페이지 등 재단 홈페이지 개편</td>
+										<td>2016.06. ~ 2016.11.</td>
+										<!-- <td>183,210</td> -->
+									</tr>
+									<tr>
+										<td>양천구청</td>
+										<td>스마트 홈페이지 구축</td>
+										<td>2016.05. ~ 2016.11.</td>
+										<!-- <td>200,000</td> -->
+									</tr>
+									<tr>
+										<td>기획재정부</td>
+										<td>국고보조금통합관리시스템 구축</td>
+										<td>2016.04. ~ 2017.09.</td>
+										<!-- <td>539,000</td> -->
+									</tr>
+									<tr>
+										<td>관악구청</td>
+										<td>2016년 홈페이지개편 및 유지관리용역</td>
+										<td>2016.01. ~ 2016.12.</td>
+										<!-- <td>372,000</td> -->
+									</tr>
+									<tr>
+										<td>한국행정연구원</td>
+										<td>국가재난안전관리 DB사이트 구축</td>
+										<td>2015.09. ~ 2015.12.</td>
+										<!-- <td>113,490</td> -->
+									</tr>
+									<tr>
+										<td>예금보험공사</td>
+										<td>2015년 예금보험공사 홈페이지 개편</td>
+										<td>2015.09. ~ 2015.12.</td>
+										<!-- <td>90,000</td> -->
+									</tr>
+									<tr>
+										<td>서초구청</td>
+										<td>서초구 홈페이지 개편 및 유지관리 용역</td>
+										<td>2015.02. ~ 2015.12.</td>
+										<!-- <td>230,000</td> -->
+									</tr>
+									<tr>
+										<td>보건복지부</td>
+										<td>보육통합정보시스템 기능 고도화 사업</td>
+										<td>2014.10. ~ 2015.03.</td>
+										<!-- <td>790,000</td> -->
+									</tr>
+									<tr>
+										<td>한국도로공사</td>
+										<td>대표 홈페이지 통합 구축 및 운영 용역</td>
+										<td>2014.08. ~ 2014.12.</td>
+										<!-- <td>644,000</td> -->
+									</tr>
+									<tr>
+										<td>한국문화예술위원회</td>
+										<td>문화체육자원봉사 홈페이지 재구축 사업</td>
+										<td>2014.07. ~ 2014.11.</td>
+										<!-- <td>198,000</td> -->
+									</tr>
+									<tr>
+										<td>인천경제자유구역청</td>
+										<td>IFEZ 웹사이트 전면개편 사업</td>
+										<td>2014.06. ~ 2014.11.</td>
+										<!-- <td>238,000</td> -->
+									</tr>
+									<tr>
+										<td>안양시청</td>
+										<td>시 대표 홈페이지 개편 사업</td>
+										<td>2014.03. ~ 2014.08.</td>
+										<!-- <td>94,600</td> -->
+									</tr>
+									<tr>
+										<td>한국지방세연구원 </td>
+										<td>한국지방세연구원 홈페이지 전면개편</td>
+										<td>2013.12. ~ 2014.04.</td>
+										<!-- <td>107,900</td> -->
+									</tr>
+								</thead>
+							</table>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="section6" class="section">
+			<div class="inner">
+				<div class="sectionTitle">
+					<h4>도입효과</h4>
+					<h5>CMS의 도입으로 홈페이지 운영의 시간과 비용의 절감과 함께 생산성 향상과 안정성을 획득</h5>
+				</div>
+				<div class="contentWrap">
+					<div class="slider useBx">
+						<ul>
+							<li><a href="#" class="btn_mobileZoom" title="이미지확대(새창열기)"><img src="./images/img_section6_1.png" alt=""></a></li>
+							<li><a href="#" class="btn_mobileZoom" title="이미지확대(새창열기)"><img src="./images/img_section6_2.png" alt=""></a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="section7" class="section">
+			<div class="inner">
+				<div class="sectionTitle">
+					<h4>Contact US</h4>
+				</div>
+				<div class="contentWrap">
+					<div class="contactus">
+						<div class="ment">
+							CMS를 적용한 홈페이지, 시스템 구축관련 문의사항이 있으신가요?<br />
+							아래 문의처로 연락주시면 친절하게 상담해드립니다. 
+						</div>
+						<div class="btnArea right">
+							<a href="#modal_request" class="btn_modalOpen">문의하기 +</a>
+						</div>
+						<div class="tableBox">
+							<table class="list">
+								<caption>연락처 목록표</caption>
+								<colgroup>
+									<col class="w20p">
+									<col>
+									<col>
+								</colgroup>
+								<thead>
+									<tr>
+										<th scope="col"></th>
+										<th scope="col">영업 문의</th>
+										<th scope="col">기술지원 문의</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td>담당자</td>
+										<td>장재열 이사</td>
+										<td>백희선 이사</td>
+									</tr>
+									<tr>
+										<td>연락처</td>
+										<td>010-4623-1502</td>
+										<td>010-6252-8107</td>
+									</tr>
+									<tr>
+										<td>이메일</td>
+										<td>beastj@injeinc.co.kr</td>
+										<td>pocas4356@injeinc.co.kr</td>
+									</tr>
+								</thead>
+							</table>
+						</div>
+					</div>
+				</div>
+	
+				<div id="modal_request" class="modalWrap">
+					<div class="modalTitle">
+						<h2>구매문의</h2>
+						<a href="#" class="btn_modalClose">창닫기</a>
+					</div>
+					<form method="post" action="index_ok.asp" id="myform" name="myform">
+
+					<div class="agreeBox">
+							<span class="agreeTitle">
+								<b>개인정보 수집 및 이용 동의</b>
+							</span>
+							<textarea class="privacy">가. 개인정보의 수집ㆍ이용 목적
+당 사이트는 개인정보보호법 제15조에 따라 다음의 목적을 위해 개인정보를 수집 및 이용함을 알리고 동의를 받습니다.
+
+1) 입력하시는 정보는 상담과 문의응대 등 관련된 제반 업무 처리를 위하여 이용됩니다.
+
+나. 수집하는 개인정보의 항목
+1) 수집항목 : 이름, 연락처, 이메일 정보
+
+다. 개인정보의 보유 및 이용기간
+1) 보유목적 : 원활한 비즈니스 상담과 문의응대를 목적으로 활용
+2) 보유기간 : 회사는 원칙적으로 개인정보 수집 및 이용목적이 달성된 후에는 해당 정보를 지체없이 파기합니다.
+ 
+라. 동의를 거부할 권리가 있다는 사실과 동의 거부에 따른 불이익 내용
+1) 당 사이트에서 수집하는 개인정보에 대해 동의를 거부할 권리가 있으며, 동의 거부 시에는 구매문의 서비스 이용이 제한됩니다.</textarea>
+							&nbsp;<input type="checkbox" name="agree" value="Y"> 동의합니다.
+					</div>
+					
+					<div class="modalContent">
+						<div class="tableCaption">
+							<span class="required">*</span> 표시는 필수입력 항목입니다.
+						</div>
+						<div class="tableBox">
+							<table class="form">
+								<caption>구매문의 입력폼</caption>
+								<colgroup>
+									<col class="w20p">
+									<col>
+								</colgroup>
+								<tbody>
+									<tr>
+										<th scope="row"><span class="required">*</span> 이름</th>
+										<td><input type="text" name="Name" class="w200" value=""></td>
+									</tr>
+									<tr>
+										<th scope="row"><span class="required">*</span> 연락처</th>
+										<td><input type="text" name="Tel" class="w200" value=""></td>
+									</tr>
+									<tr>
+										<th scope="row"><span class="required">*</span> 이메일 주소</th>
+										<td><input type="text" name="Email" class="w200" value=""></td>
+									</tr>
+									<tr>
+										<th scope="row"><span class="required">*</span> 자동등록방지</th>
+										<td><input type="text" id="auto_num" class="w200" name="auto_num" title="문자입력">&nbsp;&nbsp;&nbsp;<%=num%></td>
+									</tr>
+									<tr>
+										<th scope="row"><span class="required">*</span> 문의내용</th>
+										<td><textarea name="Memo" rows="6" class="w100p"></textarea></td>
+									</tr>
+								</thead>
+							</table>
+						</div>
+						<div class="btnArea">
+							<a href="javascript:checkIt();" class="btn_submit">보내기 +</a>
+						</div>
+					</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="sectionBtn" class="row1">
+		<ul>
+			<li class="active"><a href="#section1">소개</a></li>
+			<li><a href="#section2">특장점</a></li>
+			<li><a href="#section3">주요 기능</a></li>
+			<li><a href="#section4">서비스 구조</a></li>
+			<li><a href="#section5">적용사례</a></li>
+			<li><a href="#section6">도입효과</a></li>
+			<li><a href="#section7">Contact US</a></li>
+		</ul>
+	</div>
+	<div id="footer">
+		<div class="inner">
+			<p>
+				본사 : 서울시 구로구 디지털로 33길 12, 1301호 (구로동, 우림이비즈센터2차)<br />
+				대전지사 : 대전시 서구 둔산대로117번길 66, 909호 (만년동, 골드벤처타워) <br />
+				<br />
+				<span>Copyrightⓒ INJEINC 2019. All Rights Reserved.</span>
+			</p>
+		</div>
+	</div>
+</div>
+<div id="overlay"></div>
+</body>
+</html>
+
+
+
+
